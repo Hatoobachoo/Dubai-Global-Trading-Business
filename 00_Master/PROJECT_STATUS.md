@@ -1,12 +1,12 @@
 # Project Status
 
 **Project:** Dubai Global Trading Business  
-**Phase:** Foundation Finalist Validation  
+**Phase:** Foundation Decision Draft v0.9 / Finalist Validation  
 **Date:** 29-Sep-2026
 
 ## Locked Business Concept
 
-The project is a **broker-backed branded trading platform**. Users will interact through our brand/interface while an existing licensed broker provides the underlying trading account, execution, liquidity/market access, margin engine, source-of-truth positions/orders and, under the current mandate, client-money custody and withdrawals.
+The project is a **broker-backed branded trading platform**. Users interact through our brand/interface while an existing licensed broker provides the underlying trading account, execution, liquidity/market access, margin engine, source-of-truth positions/orders and client-money custody/withdrawals.
 
 ### Non-negotiable constraints
 
@@ -21,7 +21,7 @@ The project is a **broker-backed branded trading platform**. Users will interact
 
 ## Current Finalist Structure
 
-The broad provider scan is now closed. Current finalist slots are:
+The broad provider scan is closed. Current finalist slots are:
 
 1. Pepperstone
 2. GO Markets
@@ -32,39 +32,34 @@ The broad provider scan is now closed. Current finalist slots are:
 
 cTrader Open API remains the leading technical route; direct broker proprietary APIs remain the main parallel route.
 
-No finalist is approved until it passes the written RFI on branded third-party portal permission, broker-side execution/custody, country coverage, commercial economics, customer/data ownership, termination/suspension, and migration rights.
+No finalist is approved until it passes the written RFI on branded third-party portal permission, broker-side execution/custody, country coverage, commercial economics, customer/data ownership, termination/suspension, migration rights and outage/SLA handling.
 
-## Completed / Created
+## Latest Foundation Pack
 
-- Project repository and governance standard.
-- Foundation business-model landscape and comparison workbooks.
-- UAE regulatory-route and legal-perimeter deep dives.
-- Batch 1 regulatory/business decision model.
-- Batch 2 provider/country/commercial feasibility analysis.
-- Foundation Alignment Audit & Target Model Lock v1.0.
-- Target Model Control & Decision Register v1.0.
-- Batch 3 Broker/API Partner Shortlist & Target-Model Fit v1.0.
-- Batch 3 Broker/API Partner RFI & Shortlist workbook v1.0.
-- Batch 4 Broker/Provider Deep Comparison v1.0.
-- Batch 4 Broker/Provider Scorecard & Gold Revenue Economics v1.0.
-- Batch 5 Foundation Finalist RFI & Cash Plan v1.0.
-- Batch 5 Finalist Break-Even & Year-1 Cash Model v1.0.
+- `17_Foundation_Decision_Pack_v0.9.docx` — consolidated decision-ready research pack.
+- `18_Foundation_Decision_Model_v0.9.xlsx` — consolidated regulatory, finalist, RFI, country, unit-economics, break-even, Year-1 cash, decision and evidence model.
+
+These files are generated outside GitHub and retained as the current controlled working artifacts. GitHub remains a lightweight status/version-control record.
 
 ## Current Evidence-Based Position
 
 1. The **business concept is approved/locked**; the exact UAE legal wrapper remains open.
 2. Own brokerage/dealing, matched-principal dealing, client-money custody and B-book economics are out of scope.
-3. **DIFC/DFSA Arranging** remains the strongest regulated-wrapper hypothesis for a richer client-facing role without dealing/custody.
-4. **Tech-only / embedded broker** remains the preferred capital-light challenger if the order-entry workflow can remain legally broker-controlled.
-5. **Mainland Category 5 Introduction/Promotion** remains a fallback if trading order entry must remain broker-side.
-6. **cTrader Open API** remains the strongest technical-fit candidate because official Spotware documentation supports custom trading applications, live trading, OAuth authorisation, and app/website integrations.
-7. Public commercial anchors now include:
-   - GO Markets Gold/XAU IB rebates around **US$1–3 per lot** by tier, with custom rates available.
+3. **Tech-only / broker-controlled embedded workflow** is the preferred first legal hypothesis if specialist UAE advice confirms the actual UX/order flow stays outside regulated arranging.
+4. **DIFC/DFSA Arranging** is the principal regulated fallback for a richer client-facing role without dealing/custody.
+5. **Mainland Category 5 Introduction/Promotion** remains the lower-control fallback if order entry must remain broker-side.
+6. **cTrader Open API** remains the strongest technical-fit candidate. Official Spotware material supports custom trading apps, live trading, OAuth 2.0 authorisation and allowing customers to use the API integration inside the developer's application.
+7. Current Mainland SCA/CMA consolidated rules show Category 5 minimum paid-up capital of **AED 500,000** and separately list OTC/Spot-FX brokerage versus Introducing/Promotion.
+8. DFSA currently lists Pepperstone Financial Services (DIFC) Limited with a Retail Clients endorsement and Arranging Deals in Investments permission.
+9. DFSA states Authorised Firm application fees vary by Financial Services and range from **USD 15,000 to USD 70,000**.
+10. Public commercial anchors include:
+   - GO Markets Gold/XAU IB rebates of **US$1 / US$2 / US$3 per lot** by tier, custom rates, and up to US$5/lot for eligible high-volume partners.
    - BlackBull IB earnings advertised up to **US$10/lot**.
    - Pepperstone IB economics advertised up to **50% of spreads and commission**.
-8. These public economics are only planning anchors; our portal model requires written negotiated terms.
-9. Break-even sensitivity shows that low per-lot economics require substantial volume. Example at US$50,000 monthly fixed OPEX: US$1/lot requires about 50,000 lots/month; US$2/lot about 25,000; US$3/lot about 16,667.
-10. Current planning-only Year-1 cash envelopes are approximately AED 1.095m lean, AED 2.65m base, and AED 5.45m robust. These are **not approved budgets** and must be replaced/validated with legal, regulatory, staffing, provider and technology quotes.
+11. These public economics are planning anchors only; our branded portal model requires written negotiated terms.
+12. Initial country screen keeps **UAE as core**, Kenya/Mauritius/South Africa as investigation markets, and UK/EU/Australia/US/India/Pakistan outside a generic Phase-1 offshore launch.
+13. The current financial model intentionally shows that weak per-lot economics can require very large activity. At USD 50,000 monthly fixed OPEX: USD 1/lot requires ~50,000 lots/month; USD 2/lot ~25,000; USD 3/lot ~16,667.
+14. Current Year-1 cash envelopes remain planning-only until quotes replace assumptions.
 
 ## Remaining Foundation Gates
 
@@ -79,15 +74,26 @@ Before Foundation Decision v1.0 can be approved:
 - A credible fallback/second-broker path should exist.
 - Year-1 cash requirement and break-even volume must be supportable by available capital.
 
+## Current External Blockers
+
+The remaining high-value evidence cannot be obtained from generic public research alone:
+
+1. Written broker approval for our third-party branded portal/order-flow architecture.
+2. Broker-specific fee/rebate schedules and minimum-volume commitments.
+3. Broker-specific allowed/restricted-country lists and legal-entity routing.
+4. Draft agreements covering customer/data ownership, export, termination and migration.
+5. Specialist UAE legal/regulatory perimeter opinion on the exact user-interface and order-routing design.
+
 ## Next Phase
 
-The next work is **finalist validation**, not broad provider discovery. Priority work:
+The next work is **finalist validation and Foundation Decision v1.0**, not broad provider discovery:
 
-1. Prepare/send broker RFI to finalists.
-2. Obtain written commercial terms and technical/legal workflow answers.
-3. Close UAE legal perimeter questions.
-4. Convert public planning anchors into quote-backed financial model.
-5. Produce Foundation Decision v1.0 selecting primary launch route + fallback route.
+1. Send the standardised RFI to finalists.
+2. Collect written commercial and architecture responses.
+3. Obtain UAE specialist perimeter advice.
+4. Replace public/assumed inputs with broker, legal, staffing and provider quotations.
+5. Select primary launch route, primary broker and fallback broker.
+6. Move into Business Architecture, Operating Plan and Launch Plan.
 
 ## Documentation Rule
 
