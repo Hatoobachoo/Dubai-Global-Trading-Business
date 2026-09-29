@@ -41,6 +41,8 @@ Own-broker/dealing research is retained only to define regulatory boundaries we 
 - Target Model Control & Decision Register v1.0.
 - Batch 3 Broker/API Partner Shortlist & Target-Model Fit v1.0.
 - Batch 3 Broker/API Partner RFI & Shortlist workbook v1.0.
+- Batch 4 Broker/Provider Deep Comparison v1.0.
+- Batch 4 Broker/Provider Scorecard & Gold Revenue Economics v1.0.
 
 ## Current Evidence-Based Position
 
@@ -50,9 +52,11 @@ Own-broker/dealing research is retained only to define regulatory boundaries we 
 4. A pure technology/embedded-broker structure remains the preferred capital-light challenger if the actual order-entry workflow can remain broker-controlled and legally outside our own regulated execution/dealing role.
 5. The licensed broker must remain execution counterparty and client-money holder under the current mandate.
 6. Own brokerage/dealing is no longer an active candidate.
-7. **cTrader Open API is currently the strongest technical-fit candidate** because official Spotware documentation supports custom trading applications, live trading, OAuth customer authorisation and customer use of API integrations within third-party applications.
+7. **cTrader Open API remains the strongest technical-fit candidate** because official Spotware documentation supports custom trading applications, live trading, OAuth customer authorisation, and app/website integrations that let users trade/manage cTrader accounts without leaving the developer platform.
 8. **Direct broker proprietary APIs remain a parallel priority** because they may provide stronger commercial/legal alignment and better control over data/partnership terms.
-9. Initial broker RFI candidates include Pepperstone, FxPro, FP Markets and the broader cTrader-affiliated broker ecosystem; none is approved until explicit third-party client-facing permission and commercial terms are confirmed in writing.
+9. Current broker/provider RFI priorities are Pepperstone, GO Markets, FxPro, BlackBull Markets, FP Markets, the broader cTrader-affiliated broker ecosystem, and direct proprietary-API brokers.
+10. Public economics now provide external anchors: GO Markets publishes Gold/XAU IB rebates of roughly **US$1–3 per lot** by tier with custom rates, Pepperstone advertises up to **50% of spreads and commission** for IB partners, and BlackBull advertises CPA plus volume-rebate economics. These are benchmarks only, not yet our negotiated portal economics.
+11. No broker/provider is approved until it confirms in writing: branded client-facing portal permission, broker-side execution/custody, allowed countries, exact economics, data ownership/migration, termination/suspension terms, and fallback/migration mechanics.
 
 ## Immediate Research Gate
 
@@ -60,12 +64,13 @@ Before a provider/legal wrapper is selected, resolve:
 
 - exactly where the customer Buy/Sell instruction is legally received in each candidate workflow;
 - whether our branded front end may initiate/order-route without crossing into dealing/execution;
-- which brokers explicitly permit third-party branded client-facing trading through API/embedded components;
+- at least two brokers explicitly permitting third-party branded client-facing trading through API/embedded components;
 - customer-contract and data-ownership structure;
-- broker revenue-share/per-lot economics and provider fees;
+- quote-backed revenue-share/per-lot economics and provider fees;
 - target-country restrictions and broker country acceptance;
-- total Year-1 cash requirement for the surviving no-market-risk models;
-- at least two written broker confirmations covering the intended branded third-party workflow.
+- total Year-1 cash requirement and break-even volume for the surviving no-market-risk models;
+- acceptable termination, API-suspension and migration rights;
+- credible second-broker/fallback path.
 
 ## Documentation Rule
 
