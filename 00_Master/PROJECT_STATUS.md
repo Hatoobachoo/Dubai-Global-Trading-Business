@@ -39,6 +39,8 @@ Own-broker/dealing research is retained only to define regulatory boundaries we 
 - Batch 2 provider/country/commercial feasibility analysis.
 - Foundation Alignment Audit & Target Model Lock v1.0.
 - Target Model Control & Decision Register v1.0.
+- Batch 3 Broker/API Partner Shortlist & Target-Model Fit v1.0.
+- Batch 3 Broker/API Partner RFI & Shortlist workbook v1.0.
 
 ## Current Evidence-Based Position
 
@@ -48,6 +50,9 @@ Own-broker/dealing research is retained only to define regulatory boundaries we 
 4. A pure technology/embedded-broker structure remains the preferred capital-light challenger if the actual order-entry workflow can remain broker-controlled and legally outside our own regulated execution/dealing role.
 5. The licensed broker must remain execution counterparty and client-money holder under the current mandate.
 6. Own brokerage/dealing is no longer an active candidate.
+7. **cTrader Open API is currently the strongest technical-fit candidate** because official Spotware documentation supports custom trading applications, live trading, OAuth customer authorisation and customer use of API integrations within third-party applications.
+8. **Direct broker proprietary APIs remain a parallel priority** because they may provide stronger commercial/legal alignment and better control over data/partnership terms.
+9. Initial broker RFI candidates include Pepperstone, FxPro, FP Markets and the broader cTrader-affiliated broker ecosystem; none is approved until explicit third-party client-facing permission and commercial terms are confirmed in writing.
 
 ## Immediate Research Gate
 
@@ -59,7 +64,8 @@ Before a provider/legal wrapper is selected, resolve:
 - customer-contract and data-ownership structure;
 - broker revenue-share/per-lot economics and provider fees;
 - target-country restrictions and broker country acceptance;
-- total Year-1 cash requirement for the surviving no-market-risk models.
+- total Year-1 cash requirement for the surviving no-market-risk models;
+- at least two written broker confirmations covering the intended branded third-party workflow.
 
 ## Documentation Rule
 
