@@ -1,16 +1,45 @@
 # Dubai Global Trading Business
 
-End-to-end research, business planning, regulatory analysis, financial modelling, risk assessment, provider due diligence, and business architecture for a Dubai-based global trading platform.
+End-to-end research, business planning, regulatory analysis, financial modelling, provider due diligence, risk assessment, and business architecture for a Dubai/UAE-based broker-backed global trading platform.
 
-## Project Objective
+## Locked Project Concept
 
-Design a commercially viable, legally defensible, scalable Dubai/UAE-based international trading business from first principles before committing to a licence, broker, API, provider, or operating model.
+We are building a **branded client-facing trading platform that connects users to existing licensed brokers through approved APIs / embedded trading infrastructure**.
+
+Our company is **not** intended to become the executing broker, market maker, principal dealer, client-money custodian, or proprietary risk-taker.
+
+### Target flow
+
+User → Our Branded Platform → Approved Broker API / Broker-Controlled Trading Workflow → Licensed Broker → Market / Liquidity
+
+The licensed broker remains responsible for the underlying trading account, execution, liquidity/market access, margin engine, source-of-truth positions/orders, and under the current mandate client-money custody and withdrawals.
+
+## Non-Negotiable Foundation Constraints
+
+- **No market risk** for our entity.
+- **No exposure to customer profit or loss.**
+- **No B-book / principal / matched-principal dealing by our entity.**
+- **No execution of customer trades as broker/dealer.**
+- **No custody or control of customer trading funds.**
+- **No margin, settlement or liquidity inventory exposure.**
+- Revenue should come from transparent commercial economics such as per-lot/per-trade commission, broker revenue share, platform/service fees, affiliate/introduction economics, or legally permitted transparent markup — **not from customer losses**.
+- Technical API availability is not enough: the broker must explicitly permit the intended third-party client-facing workflow contractually.
+
+## Current Legal-Structure Research
+
+The **business model is now locked**, but the lightest legally robust UAE wrapper is still being researched. Current surviving routes are:
+
+1. **Broker-backed technology / embedded-broker model** — primary capital-light challenger.
+2. **DIFC / DFSA Arranging model + broker execution/custody** — primary regulated route under investigation.
+3. **Mainland Category 5 Introduction / Promotion + broker-controlled trading** — fallback if order entry must remain fully broker-side.
+
+**Own brokerage / dealer / matched-principal models are out of scope under the current mandate.** They are retained only as regulatory boundary/benchmark research.
 
 ## Current Phase
 
-**Phase 1 — Foundation & Discovery**
+**Phase 1 — Foundation, legal perimeter, broker/provider feasibility and commercial economics.**
 
-No broker, API, licence route, platform, or final business model is approved yet.
+No broker, API provider, UAE legal wrapper, target-country set, or final commercial agreement is approved yet.
 
 ## Working Method
 
@@ -28,7 +57,7 @@ Primary project artifacts are Microsoft Office-compatible:
 
 Diagrams, flowcharts, comparison tables and visual decision aids are included where they materially improve analysis.
 
-## Initial Repository Structure
+## Repository Structure
 
 - `00_Master/`
 - `01_Foundation/`
@@ -47,13 +76,9 @@ Diagrams, flowcharts, comparison tables and visual decision aids are included wh
 - `14_Decisions/`
 - `15_Research_Evidence/`
 
-## Current Lead Hypothesis
-
-A branded client-facing trading portal connected to a licensed broker's underlying execution/custody infrastructure is the current **lead hypothesis only**. It is not an approved model and must survive UAE regulatory, commercial, financial, provider and cross-border analysis.
-
 ## Governance Rule
 
-No technology choice, broker, API, licence, provider or commercial structure is labelled “best” until the relevant evidence is documented and competing options have been stress-tested.
+No licence, broker, API, provider, country, commercial structure, or revenue model is labelled “best” until primary evidence is documented, alternatives are compared, downside cases are challenged, and the result remains consistent with the no-market-risk / no-execution / no-custody mandate.
 
 ---
 
